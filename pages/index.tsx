@@ -9,7 +9,6 @@ export default function Home() {
 
   const handleDateChange = (event: any) => {
     const { name, value } = event.target;
-    console.log(value);
     const newDate = new Date(selectedDate);
     switch (name) {
       case "month":
